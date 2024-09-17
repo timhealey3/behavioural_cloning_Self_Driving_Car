@@ -12,7 +12,7 @@ import numpy as np
 sio = socketio.Server()
 
 app = Flask(__name__)
-speed_limit = 10
+speed_limit = 15
 
 def image_preprocess(img):
     img = img[60:135,:,:]
